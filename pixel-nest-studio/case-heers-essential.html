@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heers Planet Essential — Design Story | Pixel Nest Studio</title>
+<meta name="description" content="Case study: Wellness product discovery experience for Heers Planet — Health & Wellness. Category filtering, mobile checkout flow, and catalog architecture.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nest-mark">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ng1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#3D5FFF"/><stop offset="100%" stop-color="#29D3E0"/>
+          </linearGradient></defs>
+          <path d="M20 3 L34 20 L20 37 L6 20 Z" fill="none" stroke="url(#ng1)" stroke-width="2.4"/>
+          <path d="M20 11 L28 20 L20 29 L12 20 Z" fill="none" stroke="url(#ng1)" stroke-width="2.4"/>
+        </svg>
+      </div>
+      <div class="nav-word">PIXEL NEST<span>STUDIO</span></div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html" class="active">Work</a></li>
+      <li><a href="pricing.html">Packages</a></li>
+      <li><a href="contact.html" class="nav-cta">Start a Project</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="cs-hero">
+  <div class="dot-grid"></div>
+  <div class="hero-glow"></div>
+  <div class="wrap">
+    <div class="cs-meta-bar fade-in">
+      <a href="work.html" class="cs-back-link">← Back to Selected Work</a>
+      <span class="badge-pill">Design Story / 02</span>
+      <span class="cs-snapshot-label">Health & Wellness</span>
+    </div>
+
+    <h1 class="cs-title fade-in">Heers Planet Essential</h1>
+
+    <div class="cs-statement-card fade-in">
+      <p class="cs-statement-text">"Architecting an intuitive wellness product discovery engine that transforms product catalog exploration into an engaging, sensory digital journey."</p>
+    </div>
+
+    <!-- PROJECT SNAPSHOT CARD -->
+    <div class="cs-snapshot-grid fade-in">
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Industry</span>
+        <span class="cs-snapshot-val">Health & Wellness</span>
+      </div>
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Project</span>
+        <span class="cs-snapshot-val">Product Discovery</span>
+      </div>
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Role</span>
+        <span class="cs-snapshot-val">Product Designer & UX Architect</span>
+      </div>
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Timeline</span>
+        <span class="cs-snapshot-val">3 Weeks</span>
+      </div>
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Deliverables</span>
+        <span class="cs-snapshot-val">Discovery Engine, Quick-Filter & Checkout</span>
+      </div>
+      <div class="cs-snapshot-item">
+        <span class="cs-snapshot-label">Status</span>
+        <span class="cs-snapshot-val"><span class="status-active"><span class="status-dot"></span>Live Concept</span></span>
+      </div>
+    </div>
+
+    <!-- FULL WIDTH HERO MOCKUP -->
+    <div class="cs-hero-mockup-wrap fade-in">
+      <div class="cs-browser-frame">
+        <div class="cs-browser-topbar">
+          <div class="cs-browser-dots"><span></span><span></span><span></span></div>
+          <div class="cs-browser-address">https://heersplanet.com/essential-discovery</div>
+        </div>
+        <div class="cs-browser-content" style="padding: 3rem; background: linear-gradient(135deg, #0D1614 0%, #172622 100%);">
+          <!-- LIVE INTERACTIVE CATALOG DISCOVERY MOCKUP -->
+          <div style="max-width: 900px; margin: 0 auto; background: rgba(13,22,20,0.9); border: 1px solid rgba(41,211,224,0.25); border-radius: 12px; padding: 2rem; backdrop-filter: blur(10px);">
+            <!-- Mock Filter Bar -->
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1.2rem; margin-bottom: 1.8rem; flex-wrap: wrap; gap: 1rem;">
+              <div style="font-family: var(--font-display); font-size: 1.2rem; font-weight: 700; color: #F4F2ED;">Essential Catalog <span style="font-size: 0.8rem; color: #29D3E0; font-family: var(--font-mono);">(24 Items)</span></div>
+              <div style="display: flex; gap: 0.6rem;">
+                <span style="background: #29D3E0; color: #0A0A0B; font-size: 0.78rem; font-weight: 600; padding: 0.35rem 0.85rem; border-radius: 999px;">All Categories</span>
+                <span style="border: 1px solid rgba(255,255,255,0.15); color: #96959A; font-size: 0.78rem; padding: 0.35rem 0.85rem; border-radius: 999px;">Herbal Teas</span>
+                <span style="border: 1px solid rgba(255,255,255,0.15); color: #96959A; font-size: 0.78rem; padding: 0.35rem 0.85rem; border-radius: 999px;">Body Oils</span>
+              </div>
+            </div>
+
+            <!-- Product Grid Mockup -->
+            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.2rem;">
+              <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.2rem; text-align: left;">
+                <div style="height: 110px; background: radial-gradient(circle, rgba(41,211,224,0.15), transparent 70%); border-radius: 6px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                  <span style="font-family: var(--font-mono); font-size: 0.72rem; color: #29D3E0;">ORGANIC TEA</span>
+                </div>
+                <div style="font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: #F4F2ED; margin-bottom: 0.3rem;">Chamomile Glow Blend</div>
+                <div style="font-size: 0.82rem; color: #96959A; margin-bottom: 0.8rem;">Calming bedtime botanical infusion</div>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span style="font-family: var(--font-mono); font-size: 0.9rem; color: #29D3E0; font-weight: 700;">₹649</span>
+                  <span style="background: rgba(61,95,255,0.2); border: 1px solid #3D5FFF; color: #fff; font-size: 0.75rem; padding: 0.25rem 0.6rem; border-radius: 4px; font-weight: 600;">+ Quick Add</span>
+                </div>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.2rem; text-align: left;">
+                <div style="height: 110px; background: radial-gradient(circle, rgba(61,95,255,0.15), transparent 70%); border-radius: 6px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                  <span style="font-family: var(--font-mono); font-size: 0.72rem; color: #7C97FF;">ESSENTIAL OIL</span>
+                </div>
+                <div style="font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: #F4F2ED; margin-bottom: 0.3rem;">Lavender Relief Drops</div>
+                <div style="font-size: 0.82rem; color: #96959A; margin-bottom: 0.8rem;">Cold-pressed aromatherapy oil</div>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span style="font-family: var(--font-mono); font-size: 0.9rem; color: #29D3E0; font-weight: 700;">₹899</span>
+                  <span style="background: rgba(61,95,255,0.2); border: 1px solid #3D5FFF; color: #fff; font-size: 0.75rem; padding: 0.25rem 0.6rem; border-radius: 4px; font-weight: 600;">+ Quick Add</span>
+                </div>
+              </div>
+
+              <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 1.2rem; text-align: left;">
+                <div style="height: 110px; background: radial-gradient(circle, rgba(41,211,224,0.15), transparent 70%); border-radius: 6px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                  <span style="font-family: var(--font-mono); font-size: 0.72rem; color: #29D3E0;">GIFT BOX</span>
+                </div>
+                <div style="font-family: var(--font-display); font-weight: 700; font-size: 1rem; color: #F4F2ED; margin-bottom: 0.3rem;">Self-Care Ritual Box</div>
+                <div style="font-size: 0.82rem; color: #96959A; margin-bottom: 0.8rem;">Complete 5-piece wellness set</div>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <span style="font-family: var(--font-mono); font-size: 0.9rem; color: #29D3E0; font-weight: 700;">₹2,499</span>
+                  <span style="background: rgba(61,95,255,0.2); border: 1px solid #3D5FFF; color: #fff; font-size: 0.75rem; padding: 0.25rem 0.6rem; border-radius: 4px; font-weight: 600;">+ Quick Add</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- OPPORTUNITY & CONSTRAINTS -->
+<section class="cs-section">
+  <div class="wrap">
+    <div class="cs-grid-2">
+      <!-- OPPORTUNITY -->
+      <div class="cs-card fade-in">
+        <div class="cs-card-badge">01 / Strategic Opportunity</div>
+        <h2 class="cs-card-title">Eliminating Catalog Friction in Wellness Discovery</h2>
+        <p class="cs-card-text">Wellness products require clear ingredient transparency and sensory storytelling. Customers wanted to filter items by specific benefits (sleep aid, stress relief, skin radiance) rather than navigating flat category lists. The opportunity was to design an interactive filtering matrix that matches products to user intent seamlessly.</p>
+      </div>
+      <!-- CONSTRAINTS -->
+      <div class="cs-card fade-in">
+        <div class="cs-card-badge">02 / Design & Technical Constraints</div>
+        <h2 class="cs-card-title">Instant Client-Side Filtering Without Page Reloads</h2>
+        <p class="cs-card-text">The entire discovery engine had to function dynamically on the client side without relying on complex database queries or external API latencies. Filtering speed needed to be instant (<50ms response) while maintaining smooth CSS layout transitions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT NEEDED TO CHANGE -->
+<section class="cs-section alt">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Product Architecture</div>
+      <h2 class="cs-sec-title">What Needed To Change</h2>
+      <p class="cs-sec-body">Transitioning from static catalog pages to an active intent-driven product engine.</p>
+    </div>
+
+    <div class="cs-grid-3">
+      <div class="cs-card fade-in">
+        <div class="cs-card-badge">Legacy Problem 01</div>
+        <h3 class="cs-card-title">Static Unfilterable Grid</h3>
+        <p class="cs-card-text">Products were displayed in a flat, unorganized list requiring users to scroll endlessly to find relevant wellness items.</p>
+      </div>
+
+      <div class="cs-card fade-in">
+        <div class="cs-card-badge">Legacy Problem 02</div>
+        <h3 class="cs-card-title">Hidden Product Ingredients</h3>
+        <p class="cs-card-text">Key wellness benefits, botanical origins, and organic certifications were buried inside long text blocks.</p>
+      </div>
+
+      <div class="cs-card fade-in">
+        <div class="cs-card-badge">Legacy Problem 03</div>
+        <h3 class="cs-card-title">Multi-Step Checkout Friction</h3>
+        <p class="cs-card-text">Adding items required navigating away from the current catalog view, causing high drop-off rates on mobile devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN PROCESS TIMELINE -->
+<section class="cs-section">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Methodology</div>
+      <h2 class="cs-sec-title">Design Process Timeline</h2>
+      <p class="cs-sec-body">A thorough 6-stage engineering sprint focused on discovery UX and conversion efficiency.</p>
+    </div>
+
+    <div class="cs-process-wrap">
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 01</div>
+        <h3 class="cs-process-title">User Behavior Analysis</h3>
+        <p class="cs-process-desc">Mapped user search patterns to identify top filtering dimensions: Botanical Type, Use Case, and Price Range.</p>
+      </div>
+
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 02</div>
+        <h3 class="cs-process-title">Taxonomy Mapping</h3>
+        <p class="cs-process-desc">Structured 24+ SKUs into clean, intuitive categories with tag-based metadata for instant cross-filtering.</p>
+      </div>
+
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 03</div>
+        <h3 class="cs-process-title">Quick-Filter Wireframes</h3>
+        <p class="cs-process-desc">Designed a horizontal pill filter system positioned prominently at the top of the mobile viewport.</p>
+      </div>
+
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 04</div>
+        <h3 class="cs-process-title">Card UI Design</h3>
+        <p class="cs-process-desc">Crafted compact product cards showcasing ingredient badges, price points, and instant WhatsApp buy buttons.</p>
+      </div>
+
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 05</div>
+        <h3 class="cs-process-title">Micro-Interactions</h3>
+        <p class="cs-process-desc">Implemented smooth hover elevation, quick add animations, and instant category tab transitions.</p>
+      </div>
+
+      <div class="cs-process-card fade-in">
+        <div class="cs-process-num">PHASE 06</div>
+        <h3 class="cs-process-title">Performance Tuning</h3>
+        <p class="cs-process-desc">Optimized asset loading and DOM node counts to achieve 60fps scrolling performance on all mobile devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN PRINCIPLES -->
+<section class="cs-section alt">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Foundations</div>
+      <h2 class="cs-sec-title">Core Design Principles</h2>
+    </div>
+
+    <div class="cs-principles-grid">
+      <div class="cs-principle-card fade-in">
+        <div class="cs-principle-icon">01</div>
+        <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; margin-bottom: 0.6rem;">Scannable Clarity</h3>
+        <p style="color: var(--muted); font-size: 0.92rem; margin: 0;">Highlighting botanical benefits and prices at a single glance without visual noise.</p>
+      </div>
+
+      <div class="cs-principle-card fade-in">
+        <div class="cs-principle-icon">02</div>
+        <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; margin-bottom: 0.6rem;">Zero-Reload Filtering</h3>
+        <p style="color: var(--muted); font-size: 0.92rem; margin: 0;">Eliminating server reloads so filtering category options responds instantly to touch.</p>
+      </div>
+
+      <div class="cs-principle-card fade-in">
+        <div class="cs-principle-icon">03</div>
+        <h3 style="font-family: var(--font-display); font-size: 1.3rem; font-weight: 700; margin-bottom: 0.6rem;">Sensory Aesthetics</h3>
+        <p style="color: var(--muted); font-size: 0.92rem; margin: 0;">Using earthy botanical greens, calming dark surfaces, and subtle cyan glows to reflect organic purity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DESIGN SYSTEM SHOWCASE -->
+<section class="cs-section">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Visual System</div>
+      <h2 class="cs-sec-title">Design System Showcase</h2>
+    </div>
+
+    <!-- TYPOGRAPHY -->
+    <div class="cs-ds-block fade-in">
+      <div class="cs-ds-label">01 / Typography System</div>
+      <div class="cs-type-specimen">
+        <div class="cs-type-head">
+          <div>
+            <div class="cs-type-name">Bricolage Grotesque + Space Mono</div>
+            <div style="font-size: 0.88rem; color: var(--muted); margin-top: 0.3rem;">Catalog & Product Data Hierarchy</div>
+          </div>
+          <div class="cs-type-meta">Labels: Space Mono (700) | Product Titles: Bricolage (700)</div>
+        </div>
+
+        <div class="cs-type-sample-display">Essential Botanical Curations</div>
+      </div>
+    </div>
+
+    <!-- COLOUR PALETTE -->
+    <div class="cs-ds-block fade-in">
+      <div class="cs-ds-label">02 / Colour Palette</div>
+      <div class="cs-color-grid">
+        <div class="cs-color-card">
+          <div class="cs-color-swatch" style="background: #0D1614;"></div>
+          <div class="cs-color-info">
+            <span class="cs-color-name">Botanical Deep</span>
+            <span class="cs-color-hex">#0D1614</span>
+            <span class="cs-color-role">Canvas</span>
+          </div>
+        </div>
+        <div class="cs-color-card">
+          <div class="cs-color-swatch" style="background: #172622;"></div>
+          <div class="cs-color-info">
+            <span class="cs-color-name">Earthy Green</span>
+            <span class="cs-color-hex">#172622</span>
+            <span class="cs-color-role">Surface Depth</span>
+          </div>
+        </div>
+        <div class="cs-color-card">
+          <div class="cs-color-swatch" style="background: #29D3E0;"></div>
+          <div class="cs-color-info">
+            <span class="cs-color-name">Mint Cyan</span>
+            <span class="cs-color-hex">#29D3E0</span>
+            <span class="cs-color-role">Active Filter</span>
+          </div>
+        </div>
+        <div class="cs-color-card">
+          <div class="cs-color-swatch" style="background: #3D5FFF;"></div>
+          <div class="cs-color-info">
+            <span class="cs-color-name">Electric Accent</span>
+            <span class="cs-color-hex">#3D5FFF</span>
+            <span class="cs-color-role">Buy Action</span>
+          </div>
+        </div>
+        <div class="cs-color-card">
+          <div class="cs-color-swatch" style="background: #F4F2ED;"></div>
+          <div class="cs-color-info">
+            <span class="cs-color-name">Pure Cream</span>
+            <span class="cs-color-hex">#F4F2ED</span>
+            <span class="cs-color-role">Product Title</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TRANSFORMATION SECTION -->
+<section class="cs-section alt">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Comparative Audit</div>
+      <h2 class="cs-sec-title">Transformation Matrix</h2>
+    </div>
+
+    <!-- CATALOG TRANSFORMATION -->
+    <div class="cs-transform-card fade-in">
+      <div class="cs-transform-header">
+        <h3 class="cs-transform-title">01. Catalog Browsing & Filter Speed</h3>
+        <span class="badge-pill">UX Bottleneck Solved</span>
+      </div>
+      <div class="cs-transform-grid">
+        <div class="cs-transform-col">
+          <span class="cs-tf-label before">Before</span>
+          <h4 class="cs-tf-title">Unsorted Image Posts</h4>
+          <p class="cs-tf-text">Users had to scroll endlessly through generic social posts without any filtering or category distinction.</p>
+        </div>
+        <div class="cs-transform-col thinking">
+          <span class="cs-tf-label thinking">Strategic Thinking</span>
+          <h4 class="cs-tf-title">Tag-Based Taxonomy</h4>
+          <p class="cs-tf-text">Organized products by botanical function, price band, and availability with instant client-side filtering.</p>
+        </div>
+        <div class="cs-transform-col after">
+          <span class="cs-tf-label after">After</span>
+          <h4 class="cs-tf-title">Instant Discovery Matrix</h4>
+          <ul class="cs-tf-list">
+            <li>Sub-50ms category filtering</li>
+            <li>Clear ingredient tags</li>
+            <li>Direct WhatsApp buy button</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FINAL EXPERIENCE & REFLECTION -->
+<section class="cs-section">
+  <div class="wrap">
+    <div class="cs-sec-head fade-in">
+      <div class="eyebrow">Outcome</div>
+      <h2 class="cs-sec-title">Final Experience & Strategic Impact</h2>
+    </div>
+
+    <div class="cs-grid-2" style="margin-bottom: 3rem;">
+      <div class="cs-card fade-in">
+        <h3 class="cs-card-title">Discovery Performance</h3>
+        <p class="cs-card-text">By simplifying catalog navigation, customer engagement time increased significantly while order placement friction dropped to near zero. Buyers now self-select products effortlessly before placing orders.</p>
+      </div>
+
+      <div class="cs-card fade-in">
+        <h3 class="cs-card-title">Design Takeaway</h3>
+        <p class="cs-card-text">Clarity is the ultimate luxury in e-commerce. When customers can quickly locate products tailored to their needs, trust forms naturally and conversions follow.</p>
+      </div>
+    </div>
+
+    <!-- CLOSING THOUGHT -->
+    <div class="cs-reflection-box fade-in">
+      <p class="cs-closing-quote">"Effortless product discovery is not an accent — it is the bedrock of modern digital commerce."</p>
+    </div>
+
+    <!-- NEXT DESIGN STORY NAVIGATION -->
+    <a href="case-house-of-vyora.html" class="cs-next-story fade-in">
+      <div class="cs-next-info">
+        <div class="cs-next-label">Next Design Story → 03 / 05</div>
+        <h3 class="cs-next-title">House of Vyora</h3>
+        <p class="cs-next-desc">Luxury storytelling & emotional brand experience for luxury home fragrance.</p>
+      </div>
+      <div class="cs-next-btn">Explore Case Study →</div>
+    </a>
+
+  </div>
+</section>
+
+<!-- CTA BAND -->
+<section>
+  <div class="wrap">
+    <div class="cta-band fade-in">
+      <div>
+        <h2>Ready to craft your brand's digital story?</h2>
+        <p>Let's talk about what your site needs — no obligation.</p>
+      </div>
+      <a href="contact.html" class="btn-primary">Start a Project →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand-block">
+        <div class="nav-brand">
+          <div class="nest-mark" style="width:26px;height:26px">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 3 L34 20 L20 37 L6 20 Z" fill="none" stroke="#7C97FF" stroke-width="2.6"/>
+              <path d="M20 11 L28 20 L20 29 L12 20 Z" fill="none" stroke="#7C97FF" stroke-width="2.6"/>
+            </svg>
+          </div>
+          <div class="nav-word">PIXEL NEST<span>STUDIO</span></div>
+        </div>
+        A design studio for brands that already have taste. Based in Ahmedabad, working with clients everywhere.
+        <div class="foot-motto">We make brands feel inevitable.</div>
+      </div>
+      <div class="foot-col">
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="pricing.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Design Stories</h4>
+        <a href="case-heers-growth.html">Heers Growth</a>
+        <a href="case-heers-essential.html">Heers Essential</a>
+        <a href="case-house-of-vyora.html">House of Vyora</a>
+        <a href="case-coco-republic.html">Coco Republic</a>
+        <a href="case-wedco-events.html">WedCo Events</a>
+      </div>
+      <div class="foot-col">
+        <h4>Connect</h4>
+        <a href="https://instagram.com/pixelnest_hq" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="mailto:pixelneststudio.hq@gmail.com">Email Us</a>
+      </div>
+    </div>
+    <div class="foot-inner">
+      <div class="foot-copy">© Pixel Nest Studio. Hand-coded with consideration.</div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
