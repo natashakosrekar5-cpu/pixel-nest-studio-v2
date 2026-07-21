@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Pixel Nest Studio</title>
+<meta name="description" content="Start a project with Pixel Nest Studio. Email pixelneststudio.hq@gmail.com or message us on Instagram @pixelnest_hq.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="scroll-progress"></div>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nest-mark">
+        <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ng1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#3D5FFF"/><stop offset="100%" stop-color="#29D3E0"/>
+          </linearGradient></defs>
+          <path d="M20 3 L34 20 L20 37 L6 20 Z" fill="none" stroke="url(#ng1)" stroke-width="2.4"/>
+          <path d="M20 11 L28 20 L20 29 L12 20 Z" fill="none" stroke="url(#ng1)" stroke-width="2.4"/>
+        </svg>
+      </div>
+      <div class="nav-word">PIXEL NEST<span>STUDIO</span></div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="pricing.html">Packages</a></li>
+      <li><a href="contact.html" class="nav-cta active">Start a Project</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section id="contact" style="padding-top:9.5rem">
+  <div class="dot-grid"></div>
+  <div class="wrap contact-grid">
+    <div>
+      <div class="eyebrow">Start a project</div>
+      <h1 class="contact-title fade-in">Let's build<br>something.</h1>
+      <p class="sec-sub fade-in">Tell us about your business — we'll get back to you with next steps, usually within a day.</p>
+      <div class="contact-links">
+        <div class="contact-link-row"><span class="clabel">EMAIL</span><a href="mailto:pixelneststudio.hq@gmail.com">pixelneststudio.hq@gmail.com</a></div>
+        <div class="contact-link-row"><span class="clabel">INSTAGRAM</span><a href="https://instagram.com/pixelnest_hq" target="_blank" rel="noopener noreferrer">@pixelnest_hq</a></div>
+        <div class="contact-link-row"><span class="clabel">BASED IN</span><span>Ahmedabad, India</span></div>
+      </div>
+      <p class="faq-form-note fade-in">Prefer Instagram? DM us @pixelnest_hq and we'll pick it up from there.</p>
+    </div>
+    <div>
+      <form class="cform fade-in" id="contactForm" action="https://formspree.io/f/xykqvwbd" method="POST" onsubmit="return handleFormSubmit(event)">
+        <input type="text" name="name" placeholder="Your name" aria-label="Your name" required>
+        <input type="text" name="business" placeholder="Business name" aria-label="Business name" required>
+        <input type="email" name="email" placeholder="Email address" aria-label="Email address" required>
+        <select name="need" aria-label="What do you need?" required style="color:var(--muted)">
+          <option value="" disabled selected>What do you need?</option>
+          <option>New website</option>
+          <option>Redesign existing site</option>
+          <option>Not sure yet</option>
+        </select>
+        <textarea name="message" placeholder="Tell us a bit about your business..." aria-label="Tell us a bit about your business" required></textarea>
+        <button type="submit">Send Enquiry</button>
+      </form>
+      <div id="formSuccess" aria-live="polite">✓ Got it — we'll be in touch soon.</div>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="eyebrow">Before you go</div>
+    <h2 class="sec-title fade-in">Quick answers</h2>
+    <div style="max-width:720px;margin-top:2rem">
+      <div class="faq-item accordion fade-in">
+        <div class="faq-q">How fast will you respond?</div>
+        <div class="faq-a">We reply to every enquiry — email or Instagram — within a day, usually much sooner.</div>
+      </div>
+      <div class="faq-item accordion fade-in">
+        <div class="faq-q">Is the first consultation free?</div>
+        <div class="faq-a">Yes. We'll talk through what you need and recommend a package — no obligation to move forward.</div>
+      </div>
+      <div class="faq-item accordion fade-in">
+        <div class="faq-q">What do you need from me to get started?</div>
+        <div class="faq-a">Just a sense of your business and what you want the site to do. We'll guide you through everything else, including what content or photos would help.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT HAPPENS NEXT -->
+<section>
+  <div class="wrap">
+    <div class="eyebrow">What happens after you send this</div>
+    <h2 class="sec-title fade-in">No black box. Here's exactly what's next.</h2>
+    <div class="contact-steps" style="max-width:640px">
+      <div class="cstep fade-in">
+        <span class="cstep-n">01</span>
+        <div>
+          <div class="cstep-title">You send the enquiry</div>
+          <div class="cstep-desc">We reply within a day — usually much sooner — to confirm we've got it.</div>
+        </div>
+      </div>
+      <div class="cstep fade-in">
+        <span class="cstep-n">02</span>
+        <div>
+          <div class="cstep-title">A short discovery call</div>
+          <div class="cstep-desc">15–20 minutes to understand your business, your customers, and what the site needs to do.</div>
+        </div>
+      </div>
+      <div class="cstep fade-in">
+        <span class="cstep-n">03</span>
+        <div>
+          <div class="cstep-title">Timeline & proposal</div>
+          <div class="cstep-desc">We recommend a package, outline the timeline, and confirm scope — nothing starts until you've said yes.</div>
+        </div>
+      </div>
+      <div class="cstep fade-in">
+        <span class="cstep-n">04</span>
+        <div>
+          <div class="cstep-title">Project kickoff</div>
+          <div class="cstep-desc">We start on Discovery and Strategy, and you'll always know exactly what stage things are at.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PREFER INSTAGRAM -->
+<section class="alt">
+  <div class="wrap">
+    <div class="cta-band fade-in">
+      <div>
+        <h2>Prefer Instagram?</h2>
+        <p>Send us a DM — we usually reply within a few hours.</p>
+      </div>
+      <a href="https://instagram.com/pixelnest_hq" target="_blank" rel="noopener noreferrer" class="btn-primary">@pixelnest_hq →</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand-block">
+        <div class="nav-brand">
+          <div class="nest-mark" style="width:26px;height:26px">
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 3 L34 20 L20 37 L6 20 Z" fill="none" stroke="#7C97FF" stroke-width="2.6"/>
+              <path d="M20 11 L28 20 L20 29 L12 20 Z" fill="none" stroke="#7C97FF" stroke-width="2.6"/>
+            </svg>
+          </div>
+          <div class="nav-word">PIXEL NEST<span>STUDIO</span></div>
+        </div>
+        A design studio for brands that already have taste. Based in Ahmedabad, working with clients everywhere.
+        <div class="foot-motto">We make brands feel inevitable.</div>
+      </div>
+      <div class="foot-col">
+        <h4>Site</h4>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Work</a>
+        <a href="pricing.html">Packages</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="foot-col">
+        <h4>Design Stories</h4>
+        <a href="case-heers-growth.html">Heers Growth</a>
+        <a href="case-heers-essential.html">Heers Essential</a>
+        <a href="case-house-of-vyora.html">House of Vyora</a>
+        <a href="case-coco-republic.html">Coco Republic</a>
+        <a href="case-wedco-events.html">WedCo Events</a>
+      </div>
+      <div class="foot-col">
+        <h4>Connect</h4>
+        <a href="mailto:pixelneststudio.hq@gmail.com">Email Us</a>
+        <a href="https://instagram.com/pixelnest_hq" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://github.com/natashakosrekar5-cpu" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+    <div class="foot-inner">
+      <div class="foot-copy">© 2026 Pixel Nest Studio · Ahmedabad, India</div>
+      <div class="foot-copy">Built with care, one site at a time.</div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://instagram.com/pixelnest_hq" target="_blank" rel="noopener noreferrer" class="insta-float" aria-label="Follow @pixelnest_hq on Instagram">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>
+  @pixelnest_hq
+</a>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
